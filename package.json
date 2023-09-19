@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "node dist/server.js",
     "format:check": "prettier . --check",
+    "lint:fix": "eslint . --fix",
+    "lint": "eslint .",
     "format:fix": "prettier . --write",
     "prepare": "husky install"
   },
