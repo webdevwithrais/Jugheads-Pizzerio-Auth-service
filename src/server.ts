@@ -1,5 +1,10 @@
-function Login(username: string): boolean {
-    return true;
-}
+function Login(username: string): string {
+    const user = {
+        name: "Rais"
+    }
+    user["name"];
 
-console.log(Login("rais@abc"));
+    return username;
+}
+Login("username")
+
